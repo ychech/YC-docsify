@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{buble, countable, dark, docsify, docsify-copy-code, docsify-footer, docsify-pagination, docsify-plugin-flexible-alerts, docsify-sidebar-collapse, docsify-top-banner-plugin, dolphin, index, prism-bash, prism-php, pure, search, sidebar, sidebar-folder, style, vue, zoom-image}" />
+  </component>
+</project>
