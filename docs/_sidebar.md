@@ -1,10 +1,10 @@
 [//]: # (侧边标题)
-* [标题1](home.md)
-* [标题2](home2)
-* [bar](bar/)
-* [bar/a](bar/a)
-- 大内容
 
+- **[Markdown语法](home.md)**
+- [表情包](Emoji.md)
+* [云计算系列课程](bar/)
+* [UNIAPP专题软件开发](xx.md)
+- JAVA开发专题
     - [小内容](xxx.md)
     - [Writing more pages](more-pages.md)
     - [Custom navbar](custom-navbar.md)

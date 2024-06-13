@@ -11,36 +11,34 @@
     <!-- 黑暗主题-->
     <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"/>-->
     <!-- 官方主题-->
-          <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">-->
     <!--主题1-->
     <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">-->
     <!--主题2-->
     <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dolphin.css">-->
     <!--主题其他4个-->
-<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">-->
-<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">-->
-<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">-->
-<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">-->
-<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css">-->
-
+    <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">-->
+    <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">-->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+    <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">-->
+    <!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css">-->
 
 
     <!-- 黑白夜晚-->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
     <!-- 侧边栏折叠箭头样式-->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
+<!--    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>-->
     <!-- 侧边栏折叠文件样式-->
-    <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />-->
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
     <!-- 条幅-->
     <link rel="stylesheet" href="css/yctopbanner.css"/>
-
 
 
 </head>
 <body>
 <nav>
-    <a href="https://throwx.cn">🐮🐮 Throwable's Blog</a>
-    <a href="https://spring.throwx.cn">❤️❤️ Spring专栏</a>
+    <a href="https://">🐮🐮 YC的CSDN</a>
+    <a href="https://">❤️❤️ xx专栏</a>
 </nav>
 <div id="app">加载中~~~~冲🏃💨💨💨</div>
 <script>
@@ -57,22 +55,25 @@
         loadFooter: true,
         loadFooter: '_footer.md',
         auto2top: true,// 切换页面后跳回页面顶部
-
+        // 最大支持渲染的标题层级
+        maxLevel: 4,
+        // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级，建议配置为1或者2
+        subMaxLevel: 2,
 
 
 
         //复制
-      copyCode: {
-        buttonText: {
-          '/'      : '点击复制'
+        copyCode: {
+            buttonText: {
+                '/': '点击复制'
+            },
+            errorText: {
+                '/': '错误',
+            },
+            successText: {
+                '/': '已复制'
+            }
         },
-        errorText: {
-          '/': '错误',
-        },
-        successText: {
-          '/'      : '已复制'
-        }
-      },
 
         //上一篇下一片
         pagination: {
@@ -110,22 +111,22 @@
             }
         },
         // 字数统计
-        count:{
-            float:'left',      //right
-            position: 'top' ,  //bottom
-            countable:true,
-            fontsize:'0.9em',
-            color:'rgb(90,90,90)',
-            language:'chinese'
+        count: {
+            float: 'left',      //right
+            position: 'top',  //bottom
+            countable: true,
+            fontsize: '0.9em',
+            color: 'rgb(90,90,90)',
+            language: 'chinese'
         },
         //文本高亮
         'flexible-alerts': {
             style: 'flat'
         },
-        //条幅
+        // 条幅
         topBanner: {
-            content: '💥🚀🎁<a>Hello, yc!</a> ',
-            defaultTag: 'a', // 横幅内容的HTML标签
+            content: '💥🚀🎁<a>Hello, my friend!</a> ',
+            defaultTag: '', //
             position: 'relative', // 横幅位置
             backgroundColor: '#deebff', // 横幅背景颜色
             zIndex: -1, // 横幅的z-index
@@ -133,7 +134,6 @@
             linkColor: '#091E42', // 横幅内链接文本颜色（如果有的话）
             textAlign: 'center' // 横幅内容对齐方式
         },
-
 
 
     }
@@ -164,8 +164,9 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 <!--条幅-->
-<!--<script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>-->-->
-<script src="js/yctopbanner.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>-->
+<script src="js/yctopbanner.js"></script>
+
 
 
 </body>
